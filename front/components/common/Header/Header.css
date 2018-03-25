@@ -1,0 +1,13 @@
+.header {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    background: #333;
+
+    @nest & a {
+      color: #fff;
+      text-decoration: none;
+      font-family: sans-serif;
+      padding: 0 10px;
+    }
+}

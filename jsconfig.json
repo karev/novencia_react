@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "*": ["*", "front/*"]
+    }
+  },
+  "include": [
+    "front/**/*"
+  ],
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
